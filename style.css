@@ -6,9 +6,11 @@ p {
 
 .navbar li {
     margin:0;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     list-style-type: none;
     display: inline;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .typewriter h2{
@@ -19,6 +21,7 @@ p {
     font-family: 'Cutive Mono', monospace;
     padding-top: 5em;
     display: flex;
+    color: orchid;
     animation: 
         typing 6s steps(30, end),
         blink-caret .5s step-end infinite;
