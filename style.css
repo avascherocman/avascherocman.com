@@ -1,0 +1,36 @@
+p {
+    color:"000000";
+    background-color: "ffffff"
+
+}
+
+.navbar li {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+.typewriter h2{
+    overflow: hidden;
+    border-right: .15em orchid;
+    white-space: nowrap;
+    letter-spacing: .25;
+    font-family: 'Cutive Mono', monospace;
+    padding-top: 5em;
+    display: flex;
+    animation: 
+        typing 6s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing{
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret {
+    from, to {border-color:transparent}
+    50% {border-color: orchid}
+}
+
