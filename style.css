@@ -1,6 +1,6 @@
 p {
     color:"000000";
-    background-color: "ffffff"
+    background-color: black;
 
 }
 
@@ -13,7 +13,8 @@ p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     padding-top
-    color: orchid;
+    color: white;
+    background-color: black;
 }
 
 .navbar li a:hover, a:active{
@@ -24,8 +25,7 @@ p {
     display: inline;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
-    padding-top
-    color: darkorchid;
+    color: #EBDEF0;
     
 }
 
@@ -53,3 +53,6 @@ p {
     50% {border-color: orchid}
 }
 
+body {
+    background-color: black;
+}
