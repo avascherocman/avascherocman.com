@@ -46,34 +46,21 @@ p {
     margin: 0 0 1em 0;
     border-bottom: 1px solid #3fe4a49;
     padding:0;
-    
-    
+        
     
 }
 .typewriter h2{
     overflow: hidden;
-    border-right: .15em orchid;
+    border-right: .15em white;
     white-space: nowrap;
     letter-spacing: .25;
     font-family: 'Cutive Mono', monospace;
     padding-top: 5em;
     display: flex;
-    color: orchid;
-    animation: 
-        typing 6s steps(30, end),
-        blink-caret .5s step-end infinite;
+    color: white;
 }
 
-@keyframes typing{
-    from {width: 0}
-    to {width: 100%}
-}
-
-@keyframes blink-caret {
-    from, to {border-color:transparent}
-    50% {border-color: orchid}
-}
 
 body {
-    background-color: #fffffff;
+    background-color: black;
 }
