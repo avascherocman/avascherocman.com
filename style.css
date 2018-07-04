@@ -1,10 +1,21 @@
 p {
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color:black;
+}
 
+h1 {
+    color:#FFFFFF;
+    background-color: black;
+    font-family: "Cutive Mono";
 }
 
 #navbar li {
     float: left;
+}
+
+#typeWriter h1 {
+    color:white;
+    
 }
 
 #navbar li a{
@@ -22,16 +33,14 @@ p {
 
 #navbar li a:hover, a:active{
     margin:0;
-
     display: left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     color: #D03D3C;
-    
 }
 
 #navbar li:first-child a{
-    border-left: 1px solid #3fe4a49;
+    border-left: 1px solid #B43E8F;
 }
 
 #navbar li{
@@ -40,23 +49,11 @@ p {
     padding: 0;
 }
 #navbar {
-    background-color: #3fe4a49;
+    background-color: #B43E8F;
     width: 100;
     margin: 0 0 1em 0;
-    border-bottom: 1px solid #3fe4a49;
-    padding:0;
-        
-    
-}
-.typewriter h2{
-    overflow: hidden;
-    border-right: .15em white;
-    white-space: nowrap;
-    letter-spacing: .25;
-    font-family: 'Cutive Mono', monospace;
-    padding-top: 5em;
-    display: flex;
-    color: white;
+    border-bottom: 1px solid #B43E8F;
+    padding:0;   
 }
 
 
