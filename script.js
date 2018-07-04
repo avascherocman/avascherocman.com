@@ -1,11 +1,7 @@
 
-var txt = "ava scherocman";
-var speed =  50;
-function typeWriter() 
-    for (i=0;i=txt.length;i++) {
-        document.getElementById("typewriter").innerHTML+=txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
+function typeWriter(i,txt,speed) {
+  document.getElementById("typeWriter").innerHTML += txt.charAt(i);
+  setTimeout(function() { typeWriter(i+1,txt, speed) }, speed);
 }
 
+typeWriter(0,"ava scherocman",500);
