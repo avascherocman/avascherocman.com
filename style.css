@@ -6,7 +6,10 @@ p {
 h1 {
     color:#FFFFFF;
     background-color: black;
+    font-size:100px;
     font-family: "Cutive Mono";
+    text-align: center;
+    padding-top:100px;
 }
 
 #navbar li {

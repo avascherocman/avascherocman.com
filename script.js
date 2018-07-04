@@ -4,4 +4,4 @@ function typeWriter(i,txt,speed) {
   setTimeout(function() { typeWriter(i+1,txt, speed) }, speed);
 }
 
-typeWriter(0,"ava scherocman",500);
+typeWriter(0,"ava scherocman",100);
