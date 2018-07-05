@@ -12,6 +12,14 @@ h1 {
     padding-top:100px;
 }
 
+h2 {
+    color:#FFFFFF;
+    background-color: black;
+    font-size:30px;
+    font-family: "Cutive Mono";
+    text-align: center;
+}
+
 #navbar li {
     float: left;
 }
