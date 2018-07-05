@@ -12,6 +12,11 @@ p #vl{
     visibility:false;
 }
 
+.icons{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
 h1 {
     color:#FFFFFF;
     background-color: black;
@@ -31,23 +36,20 @@ h2 {
 }
 
 #github-icon{
-    /*padding-left:525px;*/
     background-image:"github-resize.png";
     background-color:black;
     display:inline-block;
-    align-content: center;
 }
 
 #github-icon:hover{
     background-color:#A569BD;
     -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    border-radius: 50px;
 }
 
 #linkedin-icon{
-    /*padding-right:200px;
-    padding-left: 60px;*/
+    /*padding-right:200px;*/
     display:inline-block;
 }
 

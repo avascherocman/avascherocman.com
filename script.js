@@ -12,9 +12,11 @@ function cursorBlink(){
 }
 
 function typeWriter(i,txt,speed) {
-  document.getElementById("typeWriter").innerHTML += txt.charAt(i);
-  setTimeout(function() { typeWriter(i+1,txt, speed) }, speed);
-  cursorBlink();
+  if(i < txt.length) {
+    document.getElementById("typeWriter").innerHTML += txt.charAt(i);
+    setTimeout(function() { typeWriter(i+1,txt, speed) }, speed);
+    // cursorBlink();
+  }
 }
 
-typeWriter(0,"ava scherocman",1000)
+typeWriter(0,"ava scherocman",100)
