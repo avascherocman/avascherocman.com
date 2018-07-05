@@ -10,6 +10,7 @@ h1 {
     font-family: "Cutive Mono";
     text-align: center;
     padding-top:100px;
+    padding-bottom: none;
 }
 
 h2 {
@@ -21,11 +22,12 @@ h2 {
 }
 
 #github-logo {
-    padding-left:500px;
+    padding-left:525px;
 }
 
 #linkedin-logo{
-    padding-left:700px;
+    padding-right:200px;
+    padding-left: 60px;
 }
 #navbar li {
     float: left;
