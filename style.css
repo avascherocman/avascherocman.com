@@ -20,6 +20,13 @@ h2 {
     text-align: center;
 }
 
+#github-logo {
+    padding-left:500px;
+}
+
+#linkedin-logo{
+    padding-left:700px;
+}
 #navbar li {
     float: left;
 }
