@@ -1,6 +1,15 @@
 p {
     color: #FFFFFF;
     background-color:black;
+    font-size:100;
+}
+
+body{
+    background-color: black;
+}
+
+p #vl{
+    visibility:false;
 }
 
 h1 {
@@ -21,14 +30,73 @@ h2 {
     text-align: center;
 }
 
-#github-logo {
-    padding-left:525px;
+#github-icon{
+    /*padding-left:525px;*/
+    background-image:"github-resize.png";
+    background-color:black;
+    display:inline-block;
+    align-content: center;
 }
 
-#linkedin-logo{
-    padding-right:200px;
-    padding-left: 60px;
+#github-icon:hover{
+    background-color:#A569BD;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
 }
+
+#linkedin-icon{
+    /*padding-right:200px;
+    padding-left: 60px;*/
+    display:inline-block;
+}
+
+#linkedin-icon:hover{
+    background-color:#A569BD;
+    border-radius: 25px;
+
+}
+
+#devpost-icon {
+    display:inline-block;
+    z-index:1;
+}
+
+#devpost-icon:hover {
+    background-color:#A569BD;
+    
+}
+
+/*#devpost-icon .hexagon {
+  position: absolute;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #a569bd;
+  margin: 28.87px 0;
+  visibility:hidden;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #a569bd;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #a569bd;*/
+}
+
+
 #navbar li {
     float: left;
 }
@@ -38,45 +106,3 @@ h2 {
     
 }
 
-#navbar li a{
-    margin:0;
-    padding-left: 8px;
-    padding-right: 15px;
-    display: inline;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    color: white;
-    background-color: #fe4a49;
-    font-style: normal;
-    
-}
-
-#navbar li a:hover, a:active{
-    margin:0;
-    display: left;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-    color: #D03D3C;
-}
-
-#navbar li:first-child a{
-    border-left: 1px solid #B43E8F;
-}
-
-#navbar li{
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-}
-#navbar {
-    background-color: #B43E8F;
-    width: 100;
-    margin: 0 0 1em 0;
-    border-bottom: 1px solid #B43E8F;
-    padding:0;   
-}
-
-
-body {
-    background-color: black;
-}
