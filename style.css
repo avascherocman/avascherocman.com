@@ -8,14 +8,19 @@ body{
     background-color: black;
 }
 
-p #vl{
-    visibility:false;
-}
-
 .icons{
     display:flex;
     align-items:center;
     justify-content: center;
+}
+
+#caret-blink{
+    visibility: visible;
+    border-right-style:solid;
+    border-right-color:white;
+    border-right-width:20px;
+    padding-left:1000px;
+    
 }
 h1 {
     color:#FFFFFF;
@@ -26,6 +31,14 @@ h1 {
     padding-top:100px;
     padding-bottom: none;
 }
+#typeWriter h1 {
+    color:white;
+    border-right:5px;
+    border-right-color:white;
+    border-right-style:solid;
+}
+
+
 
 h2 {
     color:#FFFFFF;
@@ -103,8 +116,5 @@ h2 {
     float: left;
 }
 
-#typeWriter h1 {
-    color:white;
-    
-}
+
 
