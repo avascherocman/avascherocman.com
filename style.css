@@ -22,6 +22,10 @@ body{
     padding-left:1000px;
     
 }
+
+.position-box{
+    background-color:black;
+}
 h1 {
     color:#FFFFFF;
     background-color: black;
@@ -49,10 +53,10 @@ h2 {
 }
 
 .page-links{
-    padding-top:30px;
-    padding-left:80px;
-    width:700px;
+    width:800px;
     margin:auto;
+    align-content: center;
+    padding-top:30px;
 }
 .page-links a{
     display:inline-block;
@@ -61,8 +65,9 @@ h2 {
     font-size:30px;
     font-family: "Cutive Mono";
     text-align: center;
-    padding-top:none;
+    align-content:center;
     padding-left:30px;
+    padding-right:30px; 
 }
 
 .page-links a:hover{
@@ -103,38 +108,18 @@ h2 {
     
 }
 
-/*#devpost-icon .hexagon {
-  position: absolute;
-  width: 100px; 
-  height: 57.74px;
-  background-color: #a569bd;
-  margin: 28.87px 0;
-  visibility:hidden;
-}
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-}
-
-.hexagon:before {
-  bottom: 100%;
-  border-bottom: 28.87px solid #a569bd;
-}
-
-.hexagon:after {
-  top: 100%;
-  width: 0;
-  border-top: 28.87px solid #a569bd;*/
-
-
-
 #navbar li {
     float: left;
+    color:white;
+    font-family:"Cutive Mono";
+    font-size:20px;
+    list-style:none;
+    padding-left:20px;
+    padding-top:none;
+}
+
+navbar li, a:hover{
+    color:#A569BD;
 }
 
 
