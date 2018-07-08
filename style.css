@@ -28,7 +28,7 @@ h1 {
     font-size:100px;
     font-family: "Cutive Mono";
     text-align: center;
-    padding-top:100px;
+    padding-top:25px;
     padding-bottom: none;
 }
 #typeWriter h1 {
@@ -39,13 +39,34 @@ h1 {
 }
 
 
-
 h2 {
     color:#FFFFFF;
     background-color: black;
     font-size:30px;
     font-family: "Cutive Mono";
     text-align: center;
+    padding-top:none;
+}
+
+.page-links{
+    padding-top:30px;
+    padding-left:80px;
+    width:700px;
+    margin:auto;
+}
+.page-links a{
+    display:inline-block;
+    color:#FFFFFF;
+    background-color: black;
+    font-size:30px;
+    font-family: "Cutive Mono";
+    text-align: center;
+    padding-top:none;
+    padding-left:30px;
+}
+
+.page-links a:hover{
+    color:#A569BD;
 }
 
 #github-icon{
@@ -109,7 +130,7 @@ h2 {
   top: 100%;
   width: 0;
   border-top: 28.87px solid #a569bd;*/
-}
+
 
 
 #navbar li {
