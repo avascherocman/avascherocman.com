@@ -8,11 +8,21 @@ body{
     background-color: black;
 }
 
-.icons{
-    display:flex;
-    align-items:center;
-    justify-content: center;
+#body-align{
+    display:inline-block;
 }
+.icons{
+    padding:none;
+    display:inline-block;
+    justify-content: left;
+    align-self:left;
+}
+
+.icons img{
+    height:60px;
+    width:auto;
+}
+
 
 #caret-blink{
     visibility: visible;
@@ -27,14 +37,15 @@ body{
     background-color:black;
 }
 h1 {
+    float:left;
     color:#FFFFFF;
     background-color: black;
     font-family: "Cutive Mono";
     text-align: center;
-    font-size:80px;
-    padding-top:25px;
-    padding-bottom: none;
-    height:100px;
+    font-size:50px;
+    padding-top: 75px;
+    padding-left:none;
+    height:10px;
 }
 #typeWriter h1 {
     color:white;
@@ -51,7 +62,9 @@ h2 {
     font-size:30px;
     font-family: "Cutive Mono";
     text-align: center;
-    padding-top:none;
+    padding-top:20px;
+    display:inline-block;
+    margin:auto;
 }
 
 h3 {
@@ -100,20 +113,22 @@ h3 {
 #linkedin-icon{
     /*padding-right:200px;*/
     display:inline-block;
+
 }
 
 #linkedin-icon:hover{
     background-color:#A569BD;
-    border-radius: 25px;
+    border-radius: 10px;
 
 }
 
-#devpost-icon {
+#twitter-icon {
     display:inline-block;
     z-index:1;
+
 }
 
-#devpost-icon:hover {
+#twitter-icon:hover {
     background-color:#A569BD;
     
 }
@@ -132,5 +147,14 @@ navbar li, a:hover{
     color:#A569BD;
 }
 
+#me{
+    float:left;
+    height:200px;
+    width:auto;
+    padding-left:100px;
+    padding-top:100px;
+    padding-right: 50px;
+    padding-bottom:100px;
+}
 
 
