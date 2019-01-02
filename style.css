@@ -1,9 +1,20 @@
 body {
   background-color: black;
+  height: 100%;
 }
 
 h1 {
+  font-size: 55px;
   font-family: 'Libre Baskerville', serif;
+  padding-left: 10px;
+  vertical-align: text-bottom;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
+  padding-left: 10px;
+  vertical-align: text-bottom;
 }
 
 .box-row {
@@ -18,10 +29,11 @@ h1 {
 .box {
   flex: 1 1 auto;
   align-self: stretch;
-  width: 30%;
-  height: 30%;
-  background-color: #a569bd;
+  width: 30vh;
+  height: 30vh;
+  background-color: #2d2d2d;
   color: white;
+  font-family: 'Libre Baskerville', serif;
   margin: 10px;
   text-align: left;
 }
@@ -29,11 +41,11 @@ h1 {
 .widebox {
   flex: 1 1 auto;
   align-self: stretch;
-  width: 60%;
-  height: 30%;
+  width: 30vh;
+  height: 30vh;
   background-color: #a569bd;
   color: white;
+  font-family: 'Libre Baskerville', serif;
   margin: 10px;
   text-align: left;
-}
 }
