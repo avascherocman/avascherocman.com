@@ -29,23 +29,28 @@ h2 {
 .box {
   flex: 1 1 auto;
   align-self: stretch;
-  width: 30vh;
-  height: 30vh;
+  width: 24vw;
+  height: 24vw;
   background-color: #2d2d2d;
   color: white;
   font-family: 'Libre Baskerville', serif;
-  margin: 10px;
-  text-align: left;
+  margin: 0.5vw;
+  align-self: flex-end;
 }
 
-.widebox {
+.box img,
+a {
+  height: inherit;
+}
+
+.namebox {
   flex: 1 1 auto;
   align-self: stretch;
-  width: 30vh;
-  height: 30vh;
+  width: 24vw;
+  height: 24vw;
   background-color: #a569bd;
   color: white;
   font-family: 'Libre Baskerville', serif;
-  margin: 10px;
+  margin: 0.5vw;
   text-align: left;
 }
