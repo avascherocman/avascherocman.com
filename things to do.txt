@@ -1,3 +1,0 @@
--look into css grid
-    -use mdn
--redo design with bigger boxes

@@ -1,0 +1,5 @@
+Jan 1   Add styling to card-based layout
+Jan 2   Add image of me, resize grid
+Jan 3   Decide next steps: scrap flexbox, research CSS Grid
+Jan 4	Start learning about CSS grid
+Jan 5

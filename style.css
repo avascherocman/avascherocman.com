@@ -17,40 +17,19 @@ h2 {
   vertical-align: text-bottom;
 }
 
-.box-row {
-  display: flex;
-  flex-direction: row;
-  flex-basis: auto;
-  flex-wrap: nowrap;
-  align-items: center;
-  background-color: black;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr [vline]);
+  grid-template-rows: repeat(3, 1fr [hline]);
 }
 
-.box {
-  flex: 1 1 auto;
-  align-self: stretch;
-  width: 24vw;
-  height: 24vw;
-  background-color: #2d2d2d;
-  color: white;
-  font-family: 'Libre Baskerville', serif;
-  margin: 0.5vw;
-  align-self: flex-end;
+#grid-sidebar {
+  grid-area: vline1/vline2/hline1/hline3;
+  justify-self: stretch;
+  background-color: magenta;
 }
-
-.box img,
-a {
-  height: inherit;
-}
-
-.namebox {
-  flex: 1 1 auto;
-  align-self: stretch;
-  width: 24vw;
-  height: 24vw;
-  background-color: #a569bd;
-  color: white;
-  font-family: 'Libre Baskerville', serif;
-  margin: 0.5vw;
-  text-align: left;
+#grid-daisy {
+  grid-area: vline2/vline3/hline1/hline2;
+  justify-self: stretch;
+  background-color: green;
 }
