@@ -19,17 +19,21 @@ h2 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr [vline]);
-  grid-template-rows: repeat(3, 1fr [hline]);
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 #grid-sidebar {
-  grid-area: vline1/vline2/hline1/hline3;
+  grid-column: 0 / span 1;
+  grid-row: 0 / span 3;
   justify-self: stretch;
   background-color: magenta;
 }
 #grid-daisy {
-  grid-area: vline2/vline3/hline1/hline2;
+  grid-column: 0 / 1;
+  grid-row: 0 / 1;
   justify-self: stretch;
   background-color: green;
 }
