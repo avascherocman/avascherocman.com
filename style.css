@@ -1,10 +1,11 @@
 body {
   background-color: black;
   height: 100%;
+  overflow: hidden;
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 36px;
   font-family: 'Libre Baskerville', serif;
   padding-left: 10px;
   vertical-align: text-bottom;
@@ -21,19 +22,25 @@ h2 {
   display: grid;
   width: 100vw;
   height: 100vh;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: [v1] 20vw [v2] 19vw [v3] 19vw [v4]19vw [v5]19vw [v6]15vw;
+  grid-template-rows: [h1] 1fr [h2] 1fr [h3] 1fr;
+  grid-row-gap: 2vh;
+  grid-column-gap: 2vh;
 }
 
 #grid-sidebar {
-  grid-column: 0 / span 1;
-  grid-row: 0 / span 3;
+  grid-column: v1 / v2;
+  grid-row: h1 / h3;
   justify-self: stretch;
-  background-color: magenta;
+  background-color: #f9f9f9;
 }
 #grid-daisy {
-  grid-column: 0 / 1;
-  grid-row: 0 / 1;
+  grid-column: v2 / v3;
+  grid-row: h1 / h2;
   justify-self: stretch;
   background-color: green;
+}
+
+#grid-daisy img {
+  width: 19vw;
 }

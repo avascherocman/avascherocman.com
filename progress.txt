@@ -3,3 +3,4 @@ Jan 2   Add image of me, resize grid
 Jan 3   Decide next steps: scrap flexbox, research CSS Grid
 Jan 4	Start learning about CSS grid
 Jan 5	Continue learning about CSS grid and mess around with grid
+Jan 6   Fix CSS grid looping problem, begin styling grid
