@@ -12,10 +12,23 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'Libre Baskerville', serif;
   padding-left: 10px;
   vertical-align: text-bottom;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
 }
 
 .grid-container {
@@ -43,4 +56,8 @@ h2 {
 
 #grid-daisy img {
   width: 19vw;
+}
+
+.icon img {
+  height: 50px;
 }
