@@ -36,9 +36,17 @@ a:visited {
   width: 100vw;
   height: 100vh;
   grid-template-columns: [v1] 20vw [v2] 19vw [v3] 19vw [v4]19vw [v5]19vw [v6]15vw;
-  grid-template-rows: [h1] 33vh [h2] 1fr [h3] 1fr;
+  grid-template-rows: [h1] 1fr [h2] 1fr [h3] 1fr;
   grid-row-gap: 2vh;
   grid-column-gap: 2vh;
+}
+
+.grid-item {
+}
+
+.grid-item a:hover {
+  grid-column-gap: 1vh;
+  grid-row-gap: 1vh;
 }
 
 #grid-sidebar {
@@ -51,12 +59,8 @@ a:visited {
   grid-column: v2 / v3;
   grid-row: h1 / h2;
   justify-self: stretch;
-  background-color: green;
-}
-
-#grid-daisy img {
-  width: 19vw;
-  height: auto;
+  background-image: url(profile.JPG);
+  background-size: cover;
 }
 
 .icon img {
