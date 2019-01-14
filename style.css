@@ -41,10 +41,18 @@ a:visited {
   grid-column-gap: 2vh;
 }
 
-.grid-item {
+.grid-link {
+  grid-column: v2 / v3;
+  grid-row: h1 / h2;
+  justify-self: stretch;
+  display: block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  z-index: 960;
 }
 
-.grid-item a:hover {
+.grid-link a:hover {
   grid-column-gap: 1vh;
   grid-row-gap: 1vh;
 }
@@ -61,8 +69,11 @@ a:visited {
   justify-self: stretch;
   background-image: url(profile.JPG);
   background-size: cover;
+  z-index: 900;
 }
 
+#grid-github {
+}
 .icon img {
   height: 50px;
 }
