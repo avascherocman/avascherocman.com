@@ -1,79 +1,51 @@
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Futura.woff') format('woff'),
+    url('/fonts/Futura.ttf') format('truetype');
+}
+
+div {
+  border-radius: 25%;
+  max-width: 64rem;
+  margin: 2rem auto;
+}
+
 body {
-  background-color: black;
-  height: 100%;
-  overflow: hidden;
+  font-family: 'Futura', sans-serif;
 }
 
 h1 {
-  font-size: 36px;
-  font-family: 'Libre Baskerville', serif;
-  padding-left: 10px;
-  vertical-align: text-bottom;
+  color: #606060;
+  text-align: left;
+  font-size: 30px;
+  display: inline-block;
+  margin: 1rem 0 1rem 0;
+}
+
+.highlight {
+  background-color: rgba(191, 155, 222, 0.7);
+  display: inline-block;
 }
 
 h2 {
-  font-size: 20px;
-  font-family: 'Libre Baskerville', serif;
-  padding-left: 10px;
-  vertical-align: text-bottom;
+  color: #606060;
+  display: inline-block;
+  font-size: 25px;
+  margin: 1.5rem 0 1rem 0;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+h3 {
+  color: #606060;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 0 1rem 0;
+}
+a:visited {
+  color: #606060;
 }
 
 a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
   color: black;
-}
-
-.grid-container {
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns: [v1] 20vw [v2] 19vw [v3] 19vw [v4]19vw [v5]19vw [v6]15vw;
-  grid-template-rows: [h1] 1fr [h2] 1fr [h3] 1fr;
-  grid-row-gap: 2vh;
-  grid-column-gap: 2vh;
-}
-
-.grid-link {
-  grid-column: v2 / v3;
-  grid-row: h1 / h2;
-  justify-self: stretch;
-  display: block;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  z-index: 960;
-}
-
-.grid-link a:hover {
-  grid-column-gap: 1vh;
-  grid-row-gap: 1vh;
-}
-
-#grid-sidebar {
-  grid-column: v1 / v2;
-  grid-row: h1 / h3;
-  justify-self: stretch;
-  background-color: #f9f9f9;
-}
-#grid-daisy {
-  grid-column: v2 / v3;
-  grid-row: h1 / h2;
-  justify-self: stretch;
-  background-image: url(profile.JPG);
-  background-size: cover;
-  z-index: 900;
-}
-
-#grid-github {
-}
-.icon img {
-  height: 50px;
 }
