@@ -8,7 +8,7 @@
 
 div {
   border-radius: 25%;
-  max-width: 64rem;
+  max-width: 40rem;
   margin: 2rem auto;
 }
 
@@ -33,14 +33,28 @@ h2 {
   color: #606060;
   display: inline-block;
   font-size: 25px;
-  margin: 1.5rem 0 1rem 0;
+  margin: 1.5rem 0 .5rem 0;
 }
 
 h3 {
   color: #606060;
   display: inline-block;
   font-size: 20px;
-  margin: 0 0 1rem 0;
+  margin: 0 0 .5rem 0;
+  text-decoration:none;
+}
+
+h4 {
+  color: #606060;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0 0 .5rem 4rem;
+  text-decoration:none;
+}
+
+
+a{
+  text-decoration:none;
 }
 a:visited {
   color: #606060;
