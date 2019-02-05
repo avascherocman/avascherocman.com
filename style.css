@@ -29,11 +29,13 @@ h1 {
   display: inline-block;
 }
 
+
+
 h2 {
   color: #606060;
   display: inline-block;
   font-size: 25px;
-  margin: 1.5rem 0 .5rem 0;
+  margin: 1rem 0 .5rem 0;
 }
 
 h3 {
@@ -43,6 +45,7 @@ h3 {
   margin: 0 0 .5rem 0;
   text-decoration:none;
 }
+
 
 h4 {
   color: #606060;
@@ -55,11 +58,18 @@ h4 {
 
 a{
   text-decoration:none;
+  font-size:15px;
 }
+
+a:hover {
+  background-color: rgb(139, 113, 162, 0.7);
+}
+
 a:visited {
   color: #606060;
 }
 
-a:hover {
-  color: black;
+a h3{
+  font-size:15px;
 }
+
