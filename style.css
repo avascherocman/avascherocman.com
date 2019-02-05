@@ -9,7 +9,8 @@
 div {
   border-radius: 25%;
   max-width: 40rem;
-  margin: 2rem auto;
+  margin: 2rem 2rem;
+  display:inline-block;
 }
 
 body {
@@ -21,6 +22,7 @@ h1 {
   text-align: left;
   font-size: 30px;
   margin: 1rem 0 1rem 0;
+  display:inline-block;
 }
 
 .highlight {
@@ -34,6 +36,7 @@ h2 {
   color: #606060;
   font-size: 25px;
   margin: 1rem 0 .5rem 0;
+  display:inline-block;
 }
 
 h3 {
@@ -41,6 +44,7 @@ h3 {
   font-size: 20px;
   margin: 0 0 .5rem 0;
   text-decoration:none;
+  display:inline-block;
 }
 
 
@@ -49,6 +53,7 @@ h4 {
   font-size: 15px;
   margin: 0 0 .5rem 4rem;
   text-decoration:none;
+  display:inline-block;
 }
 
 
@@ -62,7 +67,7 @@ a{
 a:hover {
   background-color: rgb(139, 113, 162, 0.7);
   margin: 0;
-  padding: 0;s
+  padding: 0;
   
 }
 
