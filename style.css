@@ -57,11 +57,19 @@ h4 {
 }
 
 
+.icons h4 {
+  color: #606060;
+  font-size: 20px;
+  margin: 0 0 2rem 0;
+  text-decoration:none;
+  display:inline-block;
+}
+
 a{
   text-decoration:none;
   margin: 0;
   padding: 0;
-
+  color: #606060;
 }
 
 a:hover {
@@ -75,4 +83,8 @@ a:visited {
   color: #606060;
 }
 
+.icons img{
+  height: 50px;
+  width: auto;
 
+}
