@@ -37,6 +37,7 @@ h2 {
   font-size: 30px;
   margin: 1rem 0 .5rem 0;
   display:inline-block;
+  text-emphasis: bold;
 }
 
 h3 {
