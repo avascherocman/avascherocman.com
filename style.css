@@ -1,91 +1,228 @@
 @font-face {
-  font-family: 'Futura';
+  font-family: "Larken_Medium";
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/Futura.woff') format('woff'),
-    url('/fonts/Futura.ttf') format('truetype');
-}
-
-div {
-  border-radius: 25%;
-  max-width: 40rem;
-  margin: 2rem 2rem 2rem 4rem;
-  display:inline-block;
+  src: url("/fonts/fonnts.com-Larken_Medium.otf");
 }
 
 body {
-  font-family: 'Futura', sans-serif;
+  font-family: "Larken_Medium", sans-serif;
 }
 
-h1 {
-  color: #606060;
-  text-align: left;
-  font-size: 35px;
-  margin: 1rem 0 1rem 0;
-  display:inline-block;
+.hero-grid-wrapper {
+  display: grid;
+  margin: 4rem 5rem 4rem 5rem;
+  align-content: center;
+}
+
+.hero-grid-parent {
+  display: grid;
+  grid-template-rows: 25rem;
+  grid-template-columns: 1fr 3fr;
+  gap: 3rem;
+}
+
+#me-pic {
+  contain: size;
+  background-image: url("me_2024.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+#me-pic:hover {
+  background-image: url("me_baby.gif");
+}
+
+#highlight-name {
+  background-color: rgba(191, 155, 222, 0.7);
+}
+
+#about {
+  margin: 2rem 0 0 0;
+}
+
+#about h2 {
+  margin: 1rem 0 0 2rem;
+  color: #383838;
+}
+
+#about h3 {
+  margin: 1rem 0 0 4rem;
+  color: #383838;
 }
 
 .highlight {
   background-color: rgba(191, 155, 222, 0.7);
+}
 
+.links{
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 1rem;
+}
+
+.links a{
+  font-size: 1.5rem;
+}
+
+.links h4{
+  line-height: 1rem;
+  font-family: "Larken_Medium";
+  margin: 0;
+}
+
+.icon-space{
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.icon-container{
+  height:50px;
+  padding-left: 1rem;
+  margin: 0;
+  display: inline-block;
+}
+
+.icon{
+  height:50px;
 }
 
 
+#me-pic:hover {
+  background-image: url("me_baby.gif");
+}
+
+h1 {
+  color: #000000;
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 1rem 0 1rem 0;
+  display: inline;
+}
 
 h2 {
-  color: #606060;
-  font-size: 30px;
-  margin: 1rem 0 .5rem 0;
-  display:inline-block;
-  text-emphasis: bold;
+  color: #000000;
+  font-size: 2.2rem;
 }
 
 h3 {
   color: #606060;
-  font-size: 25px;
-  margin: 0 0 .5rem 0;
-  text-decoration:none;
-  display:inline-block;
+  font-size: 1.7rem;
+  margin: 0 0 0.5rem 0;
+  text-decoration: none;
+  display: inline-block;
 }
-
 
 h4 {
-  color: #606060;
-  font-size: 20px;
-  margin: 0 0 .5rem 4rem;
-  text-decoration:none;
-  display:inline-block;
+  color: #444444;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin: 1.5rem 0 1rem 0;
+  line-height: 1.2;
+  text-decoration: none;
+  display: inline-block;
 }
 
-
-.icons h4 {
-  color: #606060;
-  font-size: 20px;
-  margin: 0 0 2rem 0;
-  text-decoration:none;
-  display:inline-block;
+h5 {
+  color: #444444;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: underline;
   margin: 0;
   padding: 0;
-  color: #606060;
+  color: #444444;
 }
 
 a:hover {
-  background-color: rgb(139, 113, 162, 0.7);
+  background-color: rgba(191, 155, 222, 0.7);
   margin: 0;
   padding: 0;
-  
 }
 
 a:visited {
   color: #606060;
 }
 
-.icons img{
-  height: 50px;
-  width: auto;
 
+/* phone friendly format */
+@media (max-width: 750px) {
+  .hero-grid-wrapper {
+    display: grid;
+    margin: 2rem;
+  }
+  .hero-grid-parent {
+    grid-template-columns: 1fr;
+  }
+  #me-pic {
+    background-position: top;
+  }
+  #highlight-name:before {
+    background-color: rgba(191, 155, 222, 0.7);
+    content: "\a";
+    white-space: pre;
+    line-height: 1.2;
+  }
+  #about {
+    margin-top: 0;
+    text-align: center;
+  }
+  #about h1 {
+    margin: 0rem 0 0 0;
+  }
+  #about h2 {
+    margin: 0;
+  }
+  #about h4 {
+    margin: 1.5rem 0 1rem 0;
+    line-height: 1.2;
+  }
+
+}
+
+/* tablet friendly format */
+@media (min-width: 750px) and (max-width: 990px) {
+  .hero-grid-wrapper {
+    display: grid;
+    margin: 2rem;
+  }
+  .hero-grid-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30rem;
+  }
+  #me-pic {
+    background-position: top;
+  }
+  #highlight-name:before {
+    background-color: rgba(191, 155, 222, 0.7);
+    content: "\a";
+    white-space: pre;
+    line-height: 1.2;
+  }
+  #about {
+    margin-top: 0;
+    text-align: center;
+  }
+  #about h1 {
+    margin: 0rem 0 1rem 0;
+  }
+  #about h2 {
+    margin: 0;
+  }
+  #about h4 {
+    margin: 1.5rem 0 1rem 0;
+    line-height: 1.2;
+  }
 }
